@@ -1,0 +1,66 @@
+{
+  "name": "Claude Nights Watch Marketplace",
+  "description": "Official marketplace for Claude Nights Watch and related productivity plugins",
+  "maintainer": {
+    "name": "Aniket Karne",
+    "email": "[email protected]",
+    "url": "https://github.com/aniketkarne"
+  },
+  "plugins": [
+    {
+      "name": "claude-nights-watch",
+      "repository": "https://github.com/aniketkarne/ClaudeNightsWatch",
+      "description": "Autonomous task execution daemon that monitors Claude usage windows and executes predefined tasks automatically",
+      "longDescription": "Transform Claude Code from an interactive assistant into an autonomous worker. Claude Nights Watch monitors your Claude usage windows (5-hour blocks) and automatically executes predefined tasks from a markdown file before each window expires - keeping your Claude session continuously active while accomplishing real work. Includes comprehensive safety rules, full audit logging, slash commands, specialized agent, smart hooks, and MCP server integration.",
+      "version": "1.0.0",
+      "author": "Aniket Karne",
+      "homepage": "https://github.com/aniketkarne/ClaudeNightsWatch",
+      "license": "MIT",
+      "keywords": [
+        "automation",
+        "daemon",
+        "task-execution",
+        "monitoring",
+        "autonomous",
+        "productivity",
+        "workflow",
+        "ci-cd",
+        "devops",
+        "continuous-integration"
+      ],
+      "categories": [
+        "automation",
+        "productivity",
+        "devops",
+        "workflow"
+      ],
+      "features": [
+        "Autonomous task execution every 5 hours",
+        "Smart usage window monitoring with ccusage integration",
+        "Comprehensive safety rules system",
+        "Full audit logging with prompts and responses",
+        "7 slash commands for complete control",
+        "Specialized Task Executor agent",
+        "Smart hooks for session integration",
+        "MCP server with 8 programmatic tools",
+        "Scheduled start time support",
+        "Interactive setup wizard"
+      ],
+      "requirements": {
+        "claude": ">=1.0.0",
+        "ccusage": "optional"
+      },
+      "screenshots": [
+        "https://github.com/aniketkarne/ClaudeNightsWatch/raw/main/docs/screenshots/status.png",
+        "https://github.com/aniketkarne/ClaudeNightsWatch/raw/main/docs/screenshots/logs.png"
+      ],
+      "documentation": "https://github.com/aniketkarne/ClaudeNightsWatch/blob/main/PLUGIN_INSTALLATION.md",
+      "featured": true,
+      "verified": true,
+      "downloads": 0,
+      "rating": 5.0,
+      "lastUpdated": "2025-10-11"
+    }
+  ]
+}
+
