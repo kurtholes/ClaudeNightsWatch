@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "claude-nights-watch",
-      "source": ".",
+      "source": "./",
       "description": "Autonomous task execution daemon for Claude CLI"
     }
   ]
