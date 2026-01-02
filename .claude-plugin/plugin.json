@@ -21,7 +21,7 @@
     "ci-cd"
   ],
   "commands": "./commands/",
-  "agents": "./agents/",
+  "agents": ["./agents/task-executor.md"],
   "hooks": "./hooks/hooks.json",
   "mcpServers": "./.mcp.json"
 }
