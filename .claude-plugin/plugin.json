@@ -22,7 +22,6 @@
   ],
   "commands": "./commands/",
   "agents": ["./agents/task-executor.md"],
-  "hooks": "./hooks/hooks.json",
   "mcpServers": "./.mcp.json"
 }
 
